@@ -77,10 +77,6 @@ router.put("/update", authMiddleware, async (req, res) => {
 
 // -----------------------------------------------------------------------------------
 
-const express = require("express");
-const router = express.Router();
-const { User } = require("../db"); // Ensure you import User from your db file
-
 router.get("/filter", async (req, res) => {
     const filter = req.query.filter || ""; // Use req.query for query parameters
     try {
