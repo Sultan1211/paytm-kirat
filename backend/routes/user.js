@@ -76,7 +76,10 @@ router.put("/update", authMiddleware, async (req, res) => {
 });
 
 // -----------------------------------------------------------------------------------
+<<<<<<< HEAD
 
+=======
+>>>>>>> 253ef5200ff5cb37331e1b7c0e69c0fb3081ec2e
 router.get("/filter", async (req, res) => {
     const filter = req.query.filter || ""; // Use req.query for query parameters
     try {
