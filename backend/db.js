@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://sultan112:KdpEilSZ1ixxlOxN@cluster0.8pv9q3r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://sultan112:Syedsultan%40123@cluster0.8pv9q3r.mongodb.net/");
 
 // User Schema
 const userSchema = new mongoose.Schema({
